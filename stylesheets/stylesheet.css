@@ -229,7 +229,45 @@ hr {
   border: none;
   background: url('../images/bg_hr.png') repeat-x center;
 }
+table {
+	border-collapse: collapse;
+	border: 3px solid #000;
+	width: 500px;
+}
+caption {
+	font-weight: bold;
+}
 
+th {
+	background-color: #007;
+	border: 1px solid #000;
+	border-bottom: 3px solid #000;
+	color: #fff;
+	padding: 2px;
+}
+
+tr {
+	background-color: #fff;
+	color: #000;
+	margin: 0;
+}
+tr.alternate {
+	background-color: #006699;
+	color: #000;
+}
+
+tr:hover {
+	background-color: #006699;
+	color: #000;
+}
+
+
+td {
+	border: 1px solid #000;
+	padding: 2px;
+}
+
+/*******************
 table {
   border: 1px solid #373737;
   margin-bottom: 20px;
@@ -247,7 +285,8 @@ td {
   padding: 10px;
   border: 1px solid #373737;
  }
-
+ *********/
+ 
 form {
   background: #f2f2f2;
   padding: 20px;
@@ -425,3 +464,4 @@ Small Device Styles
   }
 
 }
+
